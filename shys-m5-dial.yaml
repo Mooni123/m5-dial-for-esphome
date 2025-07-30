@@ -12,7 +12,7 @@ esphome:
 
   platformio_options:
     build_flags:
-      - -DSOC_WIFI_SUPPORTED=1
+      - SOC_WIFI_SUPPORTED=1
     lib_deps:
       - WiFi
       - SPI
