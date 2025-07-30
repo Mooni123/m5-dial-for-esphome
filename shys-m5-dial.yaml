@@ -11,6 +11,8 @@ esphome:
     version: "1.0"
 
   platformio_options:
+    build_flags:
+      -D_SOC_WIFI_SUPPORTED=1
     lib_deps:
       - WiFi
       - SPI
