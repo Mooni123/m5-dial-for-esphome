@@ -14,7 +14,7 @@ esphome:
     build_flags:
       - SOC_WIFI_SUPPORTED=1
     lib_deps:
-      - WiFi
+      #- WiFi
       - SPI
       - FS
       - Wire
